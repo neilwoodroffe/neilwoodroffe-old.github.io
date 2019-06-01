@@ -49,13 +49,13 @@ createElement('ul');
 mylist1 = createElement('li', 'Bachelor of Occupational Therapy', 'Bachelor');
 mylist2 = createElement('li', 'Bachelor of Science (Sport and Exercise)');
 myheading3 = createElement('h3', 'Current Employment:');
-mylist3 = createElement('li', 'Occupational Therapist at Queensland Health');
+mylist3 = createElement('li', 'Occupational Therapist at Qld Health');
 mylist4 =createElement('li', 'CEO of Doing Occupations');
 myheading4 = createElement('h3', 'Hobbies:');
 mylist5 = createElement('li', 'Brazilian Jiu Jitsu');
 mylist6 = createElement('li', 'Strength and Conditioning');
 mylist7 = createElement('li', 'Computer Programming and Coding');
-mylist8 = createElement('li', 'Retro Computer Enthusiast');
+mylist8 = createElement('li', 'Retro Computers');
 mydiv = createP("<br>");
 //mydiv.style('color', 'black');
 }

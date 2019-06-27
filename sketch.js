@@ -13,6 +13,12 @@ resizeCanvas(windowWidth, windowHeight);
 
 }
 
+function touchMoved() {
+  fill(0, 255, 0);
+  line(mouseX, mouseY, pmouseX, pmouseY);
+  return false;
+}
+
 function mouseReleased() {
 mydiv.style('color', 'black');
 myheading1.style('color', 'black');
@@ -69,6 +75,7 @@ mydiv = createP("<br>");
 mydiv = createP("<br>");
 mydiv = createP("<br>");
 //mydiv.style('color', 'black');
+strokeWeight(2);
 }
 
 function draw(){
@@ -104,8 +111,11 @@ image(img, b, a,);
 
 //textSize(vol*windowWidth/5);
 textSize(12 + (mouseX / width)*72);
-text('Hello World', 245, 90);
 fill(0, 102, 153);
+text('Hello World', 245, 90);
 image(pimg, mouseX, mouseY, pimg.width * 1.5, pimg.height * 1.5);
 
+
 }
+
+

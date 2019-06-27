@@ -93,7 +93,7 @@ image(img, b, a,);
 
 //textSize(vol*windowWidth/5);
 textSize(12 + (mouseX / width)*72);
-text('Hello World', 100, 90);
+text('Hello World', 220, 90);
 fill(0, 102, 153);
 image(pimg, mouseX, mouseY, pimg.width * 1.5, pimg.height * 1.5);
 

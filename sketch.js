@@ -58,6 +58,8 @@ mylist7 = createElement('li', 'Computer Programming and Coding');
 mylist8 = createElement('li', 'Retro Computers');
 mydiv = createP("<br>");
 mydiv = createP("<br>");
+mydiv = createP("<br>");
+mydiv = createP("<br>");
 //mydiv.style('color', 'black');
 }
 

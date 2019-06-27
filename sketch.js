@@ -57,6 +57,7 @@ mylist6 = createElement('li', 'Strength and Conditioning');
 mylist7 = createElement('li', 'Computer Programming and Coding');
 mylist8 = createElement('li', 'Retro Computers');
 mydiv = createP("<br>");
+mydiv = createP("<br>");
 //mydiv.style('color', 'black');
 }
 
@@ -93,7 +94,7 @@ image(img, b, a,);
 
 //textSize(vol*windowWidth/5);
 textSize(12 + (mouseX / width)*72);
-text('Hello World', 245, 100);
+text('Hello World', 245, 90);
 fill(0, 102, 153);
 image(pimg, mouseX, mouseY, pimg.width * 1.5, pimg.height * 1.5);
 
